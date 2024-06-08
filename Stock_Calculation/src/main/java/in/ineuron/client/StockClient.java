@@ -10,6 +10,6 @@ import feign.Response;
 @FeignClient(name="STOCK-PRICE-SERVICE")
 public interface StockClient {
 	
-	@GetMapping("/api/price/stockPrice/{companyName}")
+	@GetMapping("/price/stockPrice/{companyName}")
 	public ResponseEntity<Double> getStockPrice(@PathVariable String companyName);
 }

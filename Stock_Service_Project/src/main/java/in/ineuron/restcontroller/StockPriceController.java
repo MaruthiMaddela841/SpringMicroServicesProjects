@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import in.ineuron.service.StockPriceServiceImpl;
 
 @RestController
-@RequestMapping("/api/price")
+@RequestMapping("/price")
 public class StockPriceController {
 	
 	@Autowired
