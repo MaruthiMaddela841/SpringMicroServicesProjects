@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ineuron</groupId>
-	<artifactId>01_Eurekha_Client_Hi_Service</artifactId>
+	<artifactId>02_Eurekha_Client_Hi_Service</artifactId>
 	<version>0.1</version>
 	<packaging>war</packaging>
-	<name>01_Eurekha_Client_Hi_Service</name>
+	<name>02_Eurekha_Client_Hi_Service</name>
 	<description>Eurekha Client</description>
 	<properties>
 		<java.version>17</java.version>
